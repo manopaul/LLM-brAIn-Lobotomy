@@ -1,0 +1,26 @@
+{
+  "1": {
+    "name": "qwen2-1.5b",
+    "repo": "Qwen/Qwen2-1.5B-Instruct",
+    "desc": "Qwen 2 (1.5B Params, Fast, Great baseline)",
+    "gated": false
+  },
+  "2": {
+    "name": "phi3-mini",
+    "repo": "microsoft/Phi-3-mini-4k-instruct",
+    "desc": "Phi-3 Mini (3.8B Params, Strict Alignment)",
+    "gated": false
+  },
+  "3": {
+    "name": "llama3-8b",
+    "repo": "meta-llama/Meta-Llama-3-8B-Instruct",
+    "desc": "Llama 3 (8B Params, Requires HF_TOKEN)",
+    "gated": true
+  },
+  "4": {
+    "name": "gemma2-2b",
+    "repo": "google/gemma-2-2b-it",
+    "desc": "Gemma 2 (2.6B Params, Requires HF_TOKEN)",
+    "gated": true
+  }
+}

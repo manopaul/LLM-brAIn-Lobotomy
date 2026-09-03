@@ -1,0 +1,34 @@
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Model weights and GGUF binaries
+models/
+*.gguf
+*.safetensors
+*.bin
+
+# llama.cpp conversion tool checkout
+llama.cpp/
+
+# Python caches
+__pycache__/
+*.py[cod]
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+
+# Articles / Drafts (Excluded from git)
+article/
+
+
+
+
+# Images and generated assets (Local only)
+images/
+
+# Images and generated assets (Local only)
+images/
+scratch/
